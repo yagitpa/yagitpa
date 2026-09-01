@@ -3,7 +3,7 @@
 **AI-инженер | Python-разработчик | Специалист по автоматизации и RAG-системам**
 
 📍 Новосибирск (Открыт к релокации: Москва, СПб, Екатеринбург, Ленинградская обл.)  
-📧 y.palchikov@gmail.com | 📱 Telegram: [@lavashek1](https://t.me/lavashek1)  
+📧 yakov.palchikov@gmail.com | 📱 Telegram: [@lavashek1](https://t.me/lavashek1)  
 🌐 [Канал об AI-агентах и автоматизации](https://t.me/vibecoder_life)  
 🔗 [GitHub](https://github.com/yagitpa)
 
@@ -68,7 +68,7 @@
 ## 📬 Свяжитесь со мной
 
 Я открыт для обсуждения новых проектов, идей или возможностей сотрудничества.  
-📩 **Email**: [y.palchikov@gmail.com](mailto:y.palchikov@gmail.com)  
+📩 **Email**: [yakov.palchikov@gmail.com](mailto:yakov.palchikov@gmail.com)  
 💬 **Telegram**: [@lavashek1](https://t.me/lavashek1)  
 
 ---
@@ -78,7 +78,7 @@
 **AI Engineer | Python Developer | Automation & RAG Systems Specialist**
 
 📍 Novosibirsk, Russia (Open to relocation: Moscow, St. Petersburg, Ekaterinburg, Leningrad region)  
-📧 y.palchikov@gmail.com | 📱 Telegram: [@lavashek1](https://t.me/lavashek1)  
+📧 yakov.palchikov@gmail.com | 📱 Telegram: [@lavashek1](https://t.me/lavashek1)  
 🌐 [Channel about AI agents and automation](https://t.me/vibecoder_life)  
 🔗 [GitHub Profile](https://github.com/yagitpa)
 
@@ -143,5 +143,5 @@ A key skill from my previous career is the ability to speak with business users 
 ## 📬 Get in Touch
 
 I am always open to discussing new projects, creative ideas, or opportunities to be part of your visions.  
-📩 **Email**: [y.palchikov@gmail.com](mailto:y.palchikov@gmail.com)  
+📩 **Email**: [yakov.palchikov@gmail.com](mailto:yakov.palchikov@gmail.com)  
 💬 **Telegram**: [@lavashek1](https://t.me/lavashek1)
