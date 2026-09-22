@@ -29,22 +29,31 @@
 
 ## 🚀 Ключевые проекты
 
-Мои проекты отражают подход «один сценарий — одна ответственность» и фокус на измеримом качестве:
+### 🏆 [АвтоГрад: AI-ассистенты для автосалона](https://github.com/yagitpa/avtograd-ai-assistants)
 
-1. **[TaskBot: Telegram-таск-менеджер на n8n](https://github.com/yagitpa/PEn09_taskmanager_n8n)**  
-   16 связанных сценариев с голосовым вводом. Распознавание речи через Whisper, извлечение сути задачи и дедлайна через LLM, синхронизация с ClickUp, централизованная обработка ошибок и ежедневный бэкап.
+Три диалоговых ассистента (продажи, сервис, кадры) с production-обвязкой:
 
-2. **[RAG-ассистент по корпусу документов](https://github.com/yagitpa/PEr08_final_RAG_agent)**  
-   PostgreSQL + pgvector, структурный чанкинг по токенам с перекрытием, многоуровневый кэш. Оценка качества через метрики: recall@1/3/5, MRR, доля ложных отказов, латентность p50/p95 и RAGAS.
+- **Детерминированный валидатор** — ассистент не обещает скидку или срок ремонта: формулировка физически не уходит клиенту
+- **Шлюз персональных данных** — VIN, телефоны, имена заменяются плейсхолдерами до обращения к модели
+- **Эскалация на сотрудника** — одной кнопкой, брошенный диалог возвращается ассистенту по таймауту
+- **Два контура**: горячий (Python/FastAPI), холодный (n8n — фоновые сценарии без PII)
+- **Отказоустойчивость**: молчит DMS — ассистент говорит прямо; отказал провайдер — идёт к резервному
 
-3. **[HR-ассистент для скрининга резюме](https://github.com/yagitpa)**  
-   Приём писем из Gmail, маршрутизация вложений, дедупликация через Google Таблицы, LLM-оценка соответствия вакансии и автоматическая отправка решения с защитой от дублирования.
+### 2. [TaskBot: Telegram-таск-менеджер на n8n](https://github.com/yagitpa/PEn09_taskmanager_n8n)
 
-4. **[RiskEngine: Детектор аномалий транзакций](https://github.com/yagitpa/RiskEngine)**  
-   Сервис анализа финансовых транзакций для выявления мошеннических паттернов. Virtual Threads (Java 21) для параллельной обработки потока событий и Apache Kafka как брокер сообщений.
+16 сценариев с голосовым вводом. Распознавание речи через Whisper, извлечение сути задачи через LLM, синхронизация с ClickUp, обработка ошибок.
 
-5. **[ai-instruction-design](https://github.com/yagitpa/ai-instruction-design)**  
-   Свод правил для системных промптов и описаний нод. Оформлен как переиспользуемый инструмент и применяется в рабочих проектах.
+### 3. [RAG-ассистент по корпусу документов](https://github.com/yagitpa/PEr08_final_RAG_agent)
+
+PostgreSQL + pgvector, чанкинг по токенам с перекрытием, многоуровневый кэш. Оценка качества: recall@1/3/5, MRR, латентность p50/p95, RAGAS.
+
+### 4. [HR-ассистент для скрининга резюме](https://github.com/yagitpa)
+
+Приём писем из Gmail, маршрутизация вложений, дедупликация через Google Таблицы, LLM-оценка соответствия, автоматическая отправка решения.
+
+### 5. [RiskEngine: Детектор аномалий транзакций](https://github.com/yagitpa/RiskEngine)
+
+Сервис анализа финансовых транзакций. Virtual Threads (Java 21) для параллельной обработки, Apache Kafka.
 
 ---
 
@@ -104,22 +113,31 @@ I am an AI Engineer focused on building robust AI assistants and automation work
 
 ## 🚀 Key Projects
 
-My projects reflect the "one scenario — one responsibility" architecture and a strong focus on measurable quality:
+### 🏆 [AvtoGrad: AI Assistants for Auto Dealership](https://github.com/yagitpa/avtograd-ai-assistants)
 
-1. **[TaskBot: Telegram Task Manager on n8n](https://github.com/yagitpa/PEn09_taskmanager_n8n)**  
-   16 interconnected scenarios with voice input. Speech recognition via Whisper, task essence and deadline extraction via LLM, synchronization with ClickUp, centralized error handling, and daily backups.
+Three dialog assistants (sales, service, HR) with production-grade infrastructure:
 
-2. **[Document Corpus RAG Assistant](https://github.com/yagitpa/PEr08_final_RAG_agent)**  
-   PostgreSQL + pgvector, structural token-based chunking with overlap, multi-level cache. Quality is assessed with metrics, not guesswork: recall@1/3/5, MRR, false refusal rate, p50/p95 latency, and RAGAS.
+- **Deterministic validator** — the assistant never promises discounts or repair timelines: such formulations are physically blocked
+- **PII gateway** — VINs, phone numbers, and names are replaced with placeholders before the model sees them
+- **Human handoff** — one-click takeover, abandoned dialogues return to the assistant after timeout
+- **Two circuits**: hot (Python/FastAPI), cold (n8n — background tasks without PII access)
+- **Fault tolerance**: DMS silent — assistant says so directly; provider failed — switches to backup
 
-3. **[HR Assistant for Resume Screening](https://github.com/yagitpa)**  
-   Gmail email ingestion, attachment routing, candidate deduplication via Google Sheets, LLM-based vacancy match scoring, and automated decision sending with safeguards against duplicate responses.
+### 2. [TaskBot: Telegram Task Manager on n8n](https://github.com/yagitpa/PEn09_taskmanager_n8n)
 
-4. **[RiskEngine: Transaction Anomaly Detector](https://github.com/yagitpa/RiskEngine)**  
-   Financial transaction analysis service to identify fraudulent patterns. Utilizes Virtual Threads (Java 21) for parallel event stream processing and Apache Kafka as the message broker.
+16 scenarios with voice input. Speech recognition via Whisper, task extraction via LLM, ClickUp synchronization, error handling.
 
-5. **[ai-instruction-design](https://github.com/yagitpa/ai-instruction-design)**  
-   A set of rules for system prompts and node descriptions executed by the model. Designed as a reusable tool and actively applied in production workflows.
+### 3. [Document Corpus RAG Assistant](https://github.com/yagitpa/PEr08_final_RAG_agent)
+
+PostgreSQL + pgvector, token-based chunking with overlap, multi-level cache. Quality metrics: recall@1/3/5, MRR, p50/p95 latency, RAGAS.
+
+### 4. [HR Assistant for Resume Screening](https://github.com/yagitpa)
+
+Gmail email ingestion, attachment routing, deduplication via Google Sheets, LLM-based match scoring, automated decision sending.
+
+### 5. [RiskEngine: Transaction Anomaly Detector](https://github.com/yagitpa/RiskEngine)
+
+Financial transaction analysis service. Virtual Threads (Java 21) for parallel processing, Apache Kafka.
 
 ---
 
