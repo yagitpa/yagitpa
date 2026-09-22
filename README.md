@@ -19,11 +19,11 @@
 
 ## 🛠 Технический стек
 
-- **Языки**: Python (aiogram, pandas, openpyxl, PyMuPDF), Java (17, 21), SQL
-- **AI & LLM**: OpenAI API, GigaChat API, Claude Code, Whisper, RAG, Prompt Engineering, RAGAS
+- **Языки**: Python (FastAPI, aiogram, pandas, openpyxl, PyMuPDF), Java (17, 21), SQL
+- **AI & LLM**: OpenAI API, YandexGPT, GigaChat API, Claude Code, Whisper, RAG, Prompt Engineering, RAGAS
 - **Автоматизация**: n8n, REST API, Webhooks, JSON, Telegram Bot API
-- **Базы данных**: PostgreSQL, pgvector, Google Sheets
-- **Инфраструктура**: Docker, Git, Liquibase, Spring Boot 3, Apache Kafka, Power BI
+- **Базы данных**: PostgreSQL, pgvector, SQLite, Google Sheets
+- **Инфраструктура**: Docker, Git, Liquibase, Spring Boot 3, Apache Kafka
 
 ---
 
@@ -103,11 +103,13 @@ I am an AI Engineer focused on building robust AI assistants and automation work
 
 ## 🛠 Tech Stack
 
-- **Languages**: Python (aiogram, pandas, openpyxl, PyMuPDF), Java (17, 21), SQL
-- **AI & LLM**: OpenAI API, GigaChat API, Claude Code, Whisper, RAG, Prompt Engineering, RAGAS
+- **Languages**: Python (FastAPI, aiogram, pandas, openpyxl, PyMuPDF), Java (17, 21), SQL
+- **AI & LLM**: OpenAI API, YandexGPT, GigaChat API, Claude Code, Whisper, RAG, Prompt Engineering, RAGAS
 - **Automation**: n8n, REST API, Webhooks, JSON, Telegram Bot API
-- **Databases**: PostgreSQL, pgvector, Google Sheets
-- **Infrastructure**: Docker, Git, Liquibase, Spring Boot 3, Apache Kafka, Power BI
+- **Databases**: PostgreSQL, pgvector, SQLite, Google Sheets
+- **Infrastructure**: Docker, Git, Liquibase, Spring Boot 3, Apache Kafka
+
+---
 
 ---
 
